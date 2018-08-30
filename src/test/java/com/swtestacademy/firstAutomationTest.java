@@ -1,19 +1,17 @@
-package com.swtestacademy.webdriver;
-
-import static org.junit.Assert.*;
-package com.swtestacademy.webdriver;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+package com.swtestacademy;
 
 //Info: When you write your code IntelliJ automatically adds required classes
 //Also you can select and add required classes by pressing ALT+Enter then select related class
 
-
+import org.junit.Assert;
+import org.junit.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 /**
  * Created by ONUR BASKIRT on 26.08.2015.
  */
-public class FirstAutomationTest {
+public class firstAutomationTest {
 
     //We should add @Test annotation that JUnit will run below method
     @Test
